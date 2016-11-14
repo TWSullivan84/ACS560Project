@@ -1,0 +1,6 @@
+/* TABLES */
+DROP TABLE IF EXISTS PlayerAchievements;
+
+DROP TABLE IF EXISTS MatchHistory;
+
+DROP TABLE IF EXISTS Users;

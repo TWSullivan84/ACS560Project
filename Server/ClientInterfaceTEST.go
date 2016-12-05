@@ -11,5 +11,7 @@ func main(){
 		log.Fatal(err)
 	}
 	
+	conn.Write([]byte("Tyler,10,true,Eric,6,false,Tyler,Eric,Tyler,120"))
+	
 	conn.Close()
 }
